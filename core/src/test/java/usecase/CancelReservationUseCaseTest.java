@@ -11,6 +11,7 @@ import reserva.exception.ReservationNotFoundException;
 import reserva.modelo.Reserva;
 import reserva.modelo.ReservaEstado;
 import reserva.output.ReservationRepository;
+import reserva.usecase.CancelReservationUseCase;
 
 import java.time.LocalDate;
 import java.util.Optional;
