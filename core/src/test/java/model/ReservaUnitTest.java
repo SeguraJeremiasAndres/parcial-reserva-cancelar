@@ -14,22 +14,7 @@ import java.util.UUID;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-/*
-Entidad Reserva
-La entidad contiene:
 
-id: identificador de tipo UUID, recibido como dato de entrada.
-emailContacto: correo de contacto de quien realiza la reserva.
-fecha: fecha de la reserva (LocalDate).
-cantidadPersonas: cantidad de personas incluidas.
-estado: estado de la reserva (ACTIVA o CANCELADA).
-
-El identificador y la fecha son obligatorios.
-El correo de contacto es obligatorio y no puede estar vacío.
-La cantidad de personas debe ser mayor que cero.
-Una reserva nueva comienza en estado ACTIVA.
-Una reserva cancelada no puede cancelarse nuevamente.
- */
 public class ReservaUnitTest {
     @Test
     public void instanceReserva_allFieldsOK_succes() {
